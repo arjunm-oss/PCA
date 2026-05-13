@@ -1,0 +1,78 @@
+    1  https://github.com/conda-forge/miniforge
+    2  wget "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh”
+    3  wget "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+    4  conda activate 
+    5  bash Miniforge3-Linux-x86_64.sh 
+    6  conda activate
+    7  conda --version
+    8  mamba --version
+    9  source ~/miniforge3/bin/activate
+   10  conda create -n bec-108-bioinformatics
+   11  conda activate bec-108-bioinformatics
+   12  conda install r-base
+   13  mamba install bioconductor-ensembldb
+   14  mamba install -c bioconda bioconductor-ensembldb
+   15  condo activate bec-108-bioinformatics
+   16  condo activate bec-108_bioinformatics
+   17  condo activate bec_108_bioinformatics
+   18  condo activate bec-108_bioinformatics
+   19  mamba activate
+   20  mamba activate bec-108_biooinformatics
+   21  mamba activate bec-108_bioinformatics
+   22  mamba activate bec_108_bioinformatics
+   23  mamba activate bec-108-bioinformatics
+   24  r
+   25  R
+   26  conda install conda-forge::r-base
+   27  R
+   28  clear
+   29  BiocManager::install("ensembldb”)
+   30      install.packages("BiocManager")
+   31  R
+   32  r
+   33  q()
+   34  clear
+   35  R
+   36  BiocManager::install("ensembldb”)```
+   37  conda --version
+   38  pip python
+   39  conda --version
+   40  conda
+   41  conda activate
+   42  install python
+   43  install --help
+   44  install.packages("BiocManager")
+   45  git clone https://github.com/satyanarayan-rao/CBB-Projects.git
+   46  conda activate bec-108-bioinformatics
+   47  git clone https://github.com/satyanarayan-rao/CBB-Projects.git
+   48  cd CBB-Projects
+   49  cd on_gene_expression_data
+   50  ls
+   51  cd pca
+   52  cd on_gene_expression
+   53  ls
+   54  cd on_gene_expression_data
+   55  ls
+   56  cd data
+   57  cd class.tsv
+   58  cd class
+   59  wc -l class.tsv
+   60  wc class.tsv
+   61  head class.tsv
+   62  man wc
+   63  zcat data/columns.tsv.gz | head
+   64  zcat columns.tsv.gz | head
+   65  gzcat columns.tsv | grep XBP1
+   66  gzcat columns.tsv.gz | grep XBP1
+   67  zcat columns.tsv.gz | grep XBP1
+   68  zcat filtered.tsv.gz | head
+   69  zcat filtered.tsv.gz | wc -l
+   70  zcat filtered.tsv.gz | cut -f4404
+   71  zcat filtered.tsv.gz | head -1 | tr '\t' '\n' | nl | grep 4404
+   72  zcat filtered.tsv.gz | head -1 | tr '\t' '\n' | wc -l
+   73  `gzcat filtered.tsv.gz | head -1 | tr '\t' '\n' | cat -n | awk '$2==4404’`
+   74  zcat filtered.tsv.gz | head -1 | tr '\t' '\n' | cat -n | awk '$2==4404’`
+zcat filtered.tsv.gz | head -1 | tr '\t' '\n' | cat -n | awk '$2==4404’
+   75  zcat filtered.tsv.gz | awk '{print $2342}' | head
+   76  zgrep GATA3 columns.tsv.gz
+   77  history > my_commands.txt
